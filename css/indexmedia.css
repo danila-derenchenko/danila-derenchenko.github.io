@@ -1,0 +1,30 @@
+@media (max-width: 376px) {
+    .wrapper {
+        margin-top: 0;
+    }
+    .header-img {
+        display: none;
+    }
+    .heading {
+        margin-bottom: 12px;
+        font-size: 32px;
+    }
+    .header-margin {
+        margin-bottom: 32px;
+    }
+    .header-button {
+        padding: 5px 10px;
+    }
+    .container {
+        width: 100%;
+    }
+    .navigation {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    body {
+        text-align: center;
+    }
+}
