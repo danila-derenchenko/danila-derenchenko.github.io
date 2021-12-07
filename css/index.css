@@ -5,8 +5,9 @@
 }
 
 .container {
-    width: 1140px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+
 }
 
 .navigation {
@@ -22,7 +23,6 @@
     height: 686px;
     display: flex;
     justify-content: space-around;
-    gap: 10px;
 }
 
 .heading {
@@ -65,4 +65,9 @@
     text-decoration: none;
     padding: 15px 50px;
     color: #FFFFFF;
+}
+
+.illustration .header-img {
+    max-width: 648px;
+    max-height: 549px;
 }
