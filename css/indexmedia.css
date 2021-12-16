@@ -1,4 +1,4 @@
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 767px) {
     *{
         margin: 0;
         padding: 0;
@@ -37,12 +37,16 @@
         min-height: 360px;
     }
 
+    .cards {
+        display: none;
+    }
+
     body {
         text-align: center;
     }
 }
 
-@media screen and (max-width: 918px) and (min-width: 377px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
     *{
         margin: 0;
         padding: 0;
@@ -51,5 +55,9 @@
     .illustration {
         max-width: 393px;
         max-height: 333px;
+    }
+
+    .cards {
+        display: none;
     }
 }
