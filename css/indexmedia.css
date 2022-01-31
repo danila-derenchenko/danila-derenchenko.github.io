@@ -56,8 +56,8 @@
         max-width: 393px;
         max-height: 333px;
     }
-
-    .cards {
-        display: none;
+    
+    .cards-box {
+        flex-direction: column;
     }
 }
