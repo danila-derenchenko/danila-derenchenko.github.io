@@ -94,6 +94,7 @@
 .card-text {
     color: #1F3F68;
     letter-spacing: 0.05em;
+    text-align: left;
 }
 
 .cards-box {
@@ -121,6 +122,8 @@
     color: #1F3F68;
     max-width: 280px;
     font-weight: bold;
+    text-align: left;
+    margin-bottom: 14px;
 }
 
 .card-text {

@@ -33,16 +33,32 @@
         margin-right: auto;
     }
 
+    .cards-box {
+        flex-direction: column;
+    }
+
     .first-block{ 
         min-height: 360px;
     }
 
-    .cards {
-        display: none;
+    .card-bold-text {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .link {
+        font-size: 14px;
     }
 
     body {
         text-align: center;
+    }
+
+    .center-big-text {
+        font-size: 24px;
     }
 }
 
